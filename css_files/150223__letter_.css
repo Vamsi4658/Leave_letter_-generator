@@ -18,8 +18,8 @@ body
 #hea{
     background-color: rgba(228, 216, 216, 0.701);
    position: relative;
-   top: 25vh;
-   left:25vw;
+   top: 100px;
+   left: 250px;
    font-size: 60px;
    display: inline-block;
    letter-spacing: 10px;
