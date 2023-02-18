@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: linear-gradient(45deg,black,yellow,black);
+    background-size: 100% 250vh;
+    background-repeat: no-repeat;
+}
+#header{
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/headder.jpg);
+    background-size: 100% 400px;
+    box-shadow: 0px 5px 10px black;
+}
+#hea{
+    background-color: rgba(228, 216, 216, 0.701);
+   position: relative;
+   top: 25vh;
+   left:25vw;
+   font-size: 60px;
+   display: inline-block;
+   letter-spacing: 10px;
+   word-spacing: 15px;
+   text-shadow: 2px 2px 5px black;
+}
+#a1,#b1,#c1
+{
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 150px;
+    background-color: transparent;
+}
+#heading,#bc,#text{
+    float: left;
+    margin-top: 60px;
+}
+#hc,#bcol,#tc{
+    float: right;
+    width: 100px;
+    height: 30px;
+   position: relative;
+   right: 60px;
+   top:  60px;
+}
+#hr{
+    width: 300px;
+    position: relative;
+    top:-60px;
+    left: 600px;
+}
+#hdiv{
+    width: 400px;
+    height: 150px;
+    overflow: auto;
+}
+#hc{
+    top:-60px;
+}
+#logos{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    float: left;
+    left: 550px;
+    top: -100px;
+}
+i{
+    font-size: 30px;
+    padding: 10px;
+    rotate: 180deg;
+}
+#boundry{
+    width: 400px;
+    height: 150px;
+}
+#bcol{
+    top: -100px;
+}
+#bc{
+    display: block;
+    width: 100%;
+}
+th{
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+#genbutton{
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    left: 45vw;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 120, 168);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px;
+}
+#genbutton:active{
+    background-color: white;
+    color: black;
+}
+#lhead{
+    padding-top: 30px;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+#from{
+    width:150px;
+    margin-left: 20px;
+    height: 100px;
+}
+#to{
+    width:150px;
+    margin-left: 20px;
+    height: 150px;
+}
+#TodaysDate{
+    margin-left: 20px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+#sub{
+    margin-left: 180px;
+}
+#obd{
+    margin-left: 800px;
+}
+#bodyofle{
+    margin-left: 180px;
+}
+#bu{
+    position: absolute;
+    left: 45%;
+    top: 600px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 120, 168);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px;
+}
+#bu:active{
+    background-color: white;
+    color: black;
+}
+#Toname,#Toadd,#Fname,#Fadd{
+    display: block;
+}
+#Toname,#Toadd{
+    position: relative;
+    top:100px;
+}
+span{
+    font-size: 20px;
+}

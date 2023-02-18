@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LeaveletterEditor</title>
+    <link rel="stylesheet" href="./css_files/150223__letter_.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    
+</head>
+<body>
+    <form action="./html_files/150223_letter_output.html"> 
+    <div id="header">
+        <h1 id="hea">LeaveletterEditor</h1>
+    </div>
+    <div id="a1">
+        <div id="hdiv"> 
+            <h1 id="heading"> Heading</h1>
+        </div>
+        <input id="hr" type="range" min="10" max="100" oninput="fun1()">
+        <input id="hc" type="color"  oninput="fun1()">
+    </div>
+    <div id="b1">
+        <div id="boundry">
+        <h1 id="bc">Background</h1>
+         </div>
+    <div id="logos">
+        <i id="ri" class="fa-solid fa-align-left" onclick="right()"></i>
+        <i value="left" id="le" class="fa-solid fa-align-right" onclick="left()"></i>
+        <i value="center" id="cen" class="fa-solid fa-align-center" onclick="center()"></i>
+        <i value="justify" id="ju"  class="fa-solid fa-align-justify" onclick="justify()"></i>
+    </div>
+        <input id="bcol" type="color" oninput="fun2()">
+    </div>
+    <div id="c1">
+        <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, repudiandae.</p>
+        <input id="tc" type="color"  oninput="fun3()">
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>From Name</th>
+                <th colspan="3"><input placeholder="From Name" id="a" ></Input></th>
+            </tr>
+            <tr>
+                <th>From Address</th>
+                <th colspan="3"><input placeholder="From Address" id="b"></th>
+            </tr>
+            <tr>
+                <th >Todays Date</th>
+                <th colspan="3"><input type="date" id="c"></th>
+            </tr>
+            <tr>
+                <th>To Name</th>
+                <th colspan="3"><input placeholder="To name" id="d"></th>
+            </tr>
+            <tr>
+                <th>To Address</th>
+                <th colspan="3"><Input placeholder="Address" id="e"></Input></th>
+            </tr>
+            <tr>
+                <th>Sub</th>
+                <th><select id="f">
+                    <option>Sir</option>
+                    <option>Mam</option>
+                </select></th>
+                <th colspan="2"><input placeholder="Subject" id="g"></th>
+            </tr>
+            <tr>
+                <th>Reason</th>
+                <th colspan="3"><input type="Reason" id="h"></th>
+            </tr>
+            <tr>
+                <th>From</th>
+                <th><input type="date" id="i"></th>
+                <th>To</th>
+                <th><input type="date" id="j"></th>
+            </tr>
+            <tr>
+                <th>Number of days</th>
+                <th colspan="3"><input type="number" id="k"></th>
+            </tr>
+        </table>
+    </div>
+    <input type="submit" value="Generate the Form" onclick="store()" id="genbutton">
+</form>
+    <script src="./java_script_files/150223_letter.js"></script>
+</body>
+</html>
